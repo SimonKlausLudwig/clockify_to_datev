@@ -1,6 +1,18 @@
-import { readFile } from 'fs';
+import {readFile} from 'fs';
 import * as os from 'os';
-import { add } from './foo/foo';
+import * as moment from 'moment';
+import {datev} from "./clockifyDatev";
+
+const express = require("express");
+const app = express();
+const port = 3000;
+
+app.get("/api/export", async (req: any, res: any) => {
+    res.setHeader('Content-disposition', `inline; filename="Zeiten"`);
+    res.setHeader('Content-type', 'application/pdf');
+    datev("5eea862a12d51237f831b8be", moment()).then(stream => stream.pipe(res));
+})
+
 
 readFile('./package.json', (err, packageStr) => {
     if (err) {
@@ -12,5 +24,5 @@ readFile('./package.json', (err, packageStr) => {
 
     console.log(`Running typescript-node-starter version ${json.version}`);
     console.info(`Running on ${os.hostname()} with ${os.cpus().length} CPU's and ${os.totalmem()} mem`);
-    console.info(`1 + 1 = ${add(1, 1)}`);
+    app.listen(port, () => console.log(`app listening on port ${port}`));
 });

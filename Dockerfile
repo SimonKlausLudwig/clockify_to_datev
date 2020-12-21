@@ -1,4 +1,4 @@
-FROM node:latest
+FROM finizco/nginx-node:latest
 
 # First copy the yarn.lock to install stuff and benefit from the layer cache
 COPY ["package.json", "package-lock.json", "/usr/src/"]
@@ -17,3 +17,4 @@ RUN npm run -q build
 
 # Tell docker what to run as default
 CMD ["npm", "start", "-s"]
+# aaHV4WPwsdkwx7RRNtgw

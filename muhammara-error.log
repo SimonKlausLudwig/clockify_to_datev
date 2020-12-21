@@ -1,0 +1,199 @@
+[ 21/12/2020 23:08:39 ] InputFile::OpenFile, Unexpected Failure. Cannot open file for reading - ./output.pdf
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:56 ] AbstractContextContext::WriteTextCommandWithEncoding, was unable to find glyphs for all characters, some will appear as missing
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:56 ] AbstractContextContext::WriteTextCommandWithEncoding, was unable to find glyphs for all characters, some will appear as missing
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:56 ] AbstractContextContext::WriteTextCommandWithEncoding, was unable to find glyphs for all characters, some will appear as missing
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:56 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] AbstractContextContext::WriteTextCommandWithEncoding, was unable to find glyphs for all characters, some will appear as missing
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] AbstractContextContext::WriteTextCommandWithEncoding, was unable to find glyphs for all characters, some will appear as missing
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] AbstractContextContext::WriteTextCommandWithEncoding, was unable to find glyphs for all characters, some will appear as missing
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] AbstractContextContext::WriteTextCommandWithEncoding, was unable to find glyphs for all characters, some will appear as missing
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] AbstractContextContext::WriteTextCommandWithEncoding, was unable to find glyphs for all characters, some will appear as missing
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] AbstractContextContext::WriteTextCommandWithEncoding, was unable to find glyphs for all characters, some will appear as missing
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:14:57 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] AbstractContextContext::WriteTextCommandWithEncoding, was unable to find glyphs for all characters, some will appear as missing
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] AbstractContextContext::WriteTextCommandWithEncoding, was unable to find glyphs for all characters, some will appear as missing
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] AbstractContextContext::WriteTextCommandWithEncoding, was unable to find glyphs for all characters, some will appear as missing
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] AbstractContextContext::WriteTextCommandWithEncoding, was unable to find glyphs for all characters, some will appear as missing
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] AbstractContextContext::WriteTextCommandWithEncoding, was unable to find glyphs for all characters, some will appear as missing
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] AbstractContextContext::WriteTextCommandWithEncoding, was unable to find glyphs for all characters, some will appear as missing
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] AbstractContextContext::WriteTextCommandWithEncoding, was unable to find glyphs for all characters, some will appear as missing
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] AbstractContextContext::WriteTextCommandWithEncoding, was unable to find glyphs for all characters, some will appear as missing
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] AbstractContextContext::WriteTextCommandWithEncoding, was unable to find glyphs for all characters, some will appear as missing
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000d
+[ 21/12/2020 23:15:30 ] FreeTypeFaceWrapper::GetGlyphsForUnicodeText, failed to find glyph for charachter 0x000a
