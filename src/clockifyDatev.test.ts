@@ -1,13 +1,12 @@
 import * as moment from 'moment';
-import { createPDF } from './clockifyDatev';
+import {createPDF} from "./pdf.service";
+import {datev} from "./clockifyDatev";
+import {APP_CONFIG} from "./config";
+
+const DEZ_2020 = moment().set("date", 1).set("year", 2020).set("month", 11);
 
 describe('test clockify to datev', async () => {
     it('test convert to datev', async () => {
-        await createPDF(moment(), '121', 'thebakers', 'Simon', [
-            {
-                dayOfMonth: 1,
-                entries: [['1', '2', '3', '4', '5', '6', '7', '8']]
-            }
-        ]);
+        await datev(APP_CONFIG.workspace,DEZ_2020);
     });
 });
