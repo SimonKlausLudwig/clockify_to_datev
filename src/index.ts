@@ -2,6 +2,7 @@ import {readFile} from 'fs';
 import * as os from 'os';
 import * as moment from 'moment';
 import {datev} from "./clockifyDatev";
+import {APP_CONFIG} from "./config";
 
 const express = require("express");
 const app = express();
@@ -10,7 +11,7 @@ const port = 3000;
 app.get("/api/export", async (req: any, res: any) => {
     res.setHeader('Content-disposition', `inline; filename="Zeiten"`);
     res.setHeader('Content-type', 'application/pdf');
-    datev("5eea862a12d51237f831b8be", moment()).then(stream => stream.pipe(res));
+    datev(APP_CONFIG.workspace, moment().set('month',req.params.month)).then(stream => stream.pipe(res));
 })
 
 

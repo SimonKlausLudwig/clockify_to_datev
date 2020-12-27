@@ -1,8 +1,9 @@
-import * as moment from 'moment';
 import {Moment} from 'moment';
+import * as moment from "moment";
 import {Stream} from 'stream';
 import ClockifyService from "./clockify.service";
 import {createPDF, InterfaceEntry, merge} from "./pdf.service";
+
 
 const fs = require('fs');
 var tohhmmss = require('tohhmmss');
@@ -22,7 +23,7 @@ export interface InterfaceTimeSheet {
 export function datev(workspace: string, month: Moment): Promise<Stream> {
     return new ClockifyService().getTimesheets(workspace, month)
         .then(timesheets => Promise.all(timesheets.map(timesheet => {
-            return datesToDatev(timesheet,month);
+            return datesToDatev(timesheet, month);
         })).then(files => merge(files).then(file => fs.createReadStream(file))));
 }
 
@@ -31,40 +32,25 @@ function mapToLines(timesheet: InterfaceTimeSheet): InterfaceEntry[] {
         const startMoment = moment(entry.start);
         const endMoment = moment(entry.end);
         return {
-            dayOfMonth: startMoment.date(), entries: [[startMoment.format('DD.MM'),
-                startMoment.format('hh:mm'),
-                '',
-                endMoment.format('hh:mm'),
-                tohhmmss(endMoment.diff(startMoment, "seconds")),
-                '',
-                '',
-                entry.note
-            ]]
+            day: startMoment.format('DD.MM'),
+            start: startMoment.format('hh:mm'),
+            break: '00:00',
+            end: endMoment.format('hh:mm'),
+            duration: tohhmmss(endMoment.diff(startMoment, "seconds")).slice(0, -3),
+            reason: '',
+            dt: startMoment.format('DD.MM'),
+            note: entry.note
         };
     });
 
     return entries;
 }
 
-function groupLines(entries: InterfaceEntry[]): InterfaceEntry[] {
-    const result: InterfaceEntry[] = [];
-    entries.forEach(entry => {
-        const existing = result.filter(resultEntry => resultEntry.dayOfMonth === entry.dayOfMonth);
-        if (existing.length >= 1) {
-            existing[0].entries.push(entry.entries[0]);
-        } else {
-            result.push(entry);
-        }
-    });
-    return result;
-}
-
-export function datesToDatev(timesheet: InterfaceTimeSheet, month: Moment): string {
+export async function datesToDatev(timesheet: InterfaceTimeSheet, month: Moment): Promise<string> {
     return createPDF(month,
-        tohhmmss(12),
-        'thebakers UG (haftungsbeschränkt)',
+        tohhmmss([0].concat(timesheet.entries.map(i => i.end.diff(i.start, "seconds"))).reduce((a: number, b: number) => a + b)).slice(0, -3),
         timesheet.name,
-        groupLines(mapToLines(timesheet)));
+        mapToLines(timesheet))
 }
 
 
