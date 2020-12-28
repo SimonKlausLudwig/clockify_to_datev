@@ -1,7 +1,7 @@
 import * as moment from 'moment';
 import {createPDF} from "./pdf.service";
 import {datev} from "./clockifyDatev";
-import {APP_CONFIG} from "./config";
+import {APP_CONFIG} from "./config/config";
 
 const DEZ_2020 = moment().set("date", 1).set("year", 2020).set("month", 11);
 

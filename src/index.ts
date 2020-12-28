@@ -2,7 +2,7 @@ import {readFile} from 'fs';
 import * as os from 'os';
 import * as moment from 'moment';
 import {datev} from "./clockifyDatev";
-import {APP_CONFIG} from "./config";
+import {APP_CONFIG} from "./config/config";
 
 const express = require("express");
 const app = express();

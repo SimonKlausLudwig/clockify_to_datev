@@ -1,5 +1,5 @@
 import ClockifyService from "./clockify.service";
-import {APP_CONFIG} from "./config";
+import {APP_CONFIG} from "./config/config";
 import {expect} from "chai";
 import * as moment from 'moment';
 //simon-ludwig+1@live.de

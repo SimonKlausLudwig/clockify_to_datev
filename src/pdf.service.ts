@@ -1,5 +1,5 @@
 import {Moment} from "moment";
-import {APP_CONFIG} from "./config";
+import {APP_CONFIG} from "./config/config";
 
 var Mustache = require('mustache');
 const puppeteer = require('puppeteer')

@@ -1,4 +1,4 @@
-import {APP_CONFIG} from "./config";
+import {APP_CONFIG} from "./config/config";
 import {ClockifyApi} from "clockify-api/dist";
 import * as moment from "moment";
 import {Moment} from "moment";
