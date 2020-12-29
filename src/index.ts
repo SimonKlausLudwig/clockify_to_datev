@@ -11,7 +11,7 @@ const port = 3000;
 app.get("/api/export", async (req: any, res: any) => {
     res.setHeader('Content-disposition', `inline; filename="Zeiten"`);
     res.setHeader('Content-type', 'application/pdf');
-    datev(APP_CONFIG.workspace, moment().set('month',req.params.month)).then(stream => stream.pipe(res));
+    datev(APP_CONFIG.workspace, moment().date(1).month(req.query.month)).then(stream => stream.pipe(res));
 })
 
 

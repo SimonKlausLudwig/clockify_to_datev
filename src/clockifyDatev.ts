@@ -21,6 +21,7 @@ export interface InterfaceTimeSheet {
 
 
 export function datev(workspace: string, month: Moment): Promise<Stream> {
+    console.log("Export " + month);
     return new ClockifyService().getTimesheets(workspace, month)
         .then(timesheets => Promise.all(timesheets.map(timesheet => {
             return datesToDatev(timesheet, month);

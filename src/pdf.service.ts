@@ -1,4 +1,5 @@
 import {Moment} from "moment";
+import * as moment from 'moment';
 import {APP_CONFIG} from "./config/config";
 
 var Mustache = require('mustache');
@@ -37,7 +38,8 @@ export async function createPDF(month: Moment, total: string, name: string, entr
     const file = tmp.fileSync({postfix: '.pdf'});
 
     const browser = await puppeteer.launch({
-        headless: true
+        headless: true,
+        args: ['--no-sandbox'], // This was important. Can't remember why
     })
 
     // create a new page
@@ -50,7 +52,7 @@ export async function createPDF(month: Moment, total: string, name: string, entr
         company: APP_CONFIG.companyName,
         name: name,
         total: total,
-        month: month.locale("DE").format("DD. MMMM"),
+        month: month.format("DD. MMMM"),
         entries: entries
     }), {
         waitUntil: 'domcontentloaded'

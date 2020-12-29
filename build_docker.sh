@@ -1,2 +1,3 @@
 #!/bin/sh
-docker build -f ./Dockerfile --pull -t thebakers/clockify_datev:1.0 .
+docker build -f ./Dockerfile --pull -t thebakers/clockify_datev:1.4 .
+

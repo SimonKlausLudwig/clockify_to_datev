@@ -1,2 +1,2 @@
 #!/bin/sh
-docker push thebakers/clockify_datev:1.0
+docker push thebakers/clockify_datev:1.3

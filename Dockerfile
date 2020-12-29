@@ -1,4 +1,4 @@
-FROM finizco/nginx-node:latest
+FROM buildkite/puppeteer
 
 # First copy the yarn.lock to install stuff and benefit from the layer cache
 COPY ["package.json", "package-lock.json", "/usr/src/"]
