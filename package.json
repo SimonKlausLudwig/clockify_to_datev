@@ -27,10 +27,13 @@
   },
   "dependencies": {
     "clockify-api": "^1.1.0",
+    "csv-parse": "^4.15.4",
+    "csv-parser": "^3.0.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "filecompare": "^1.0.4",
     "moment": "^2.29.1",
+    "multer": "^1.4.2",
     "mustache": "^4.1.0",
     "pdf-merger-js": "^3.0.5",
     "puppeteer": "^5.5.0",

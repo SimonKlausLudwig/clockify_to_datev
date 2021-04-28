@@ -1,13 +1,4 @@
-import {renderHTML} from "./pdf.service";
-import {readCSV} from "./CsvReader";
-import {expect} from 'chai';
-const fs = require('fs');
-
-describe('test render', async () => {
-    it('test create pdf', async () => {
-        await readCSV(fs.createReadStream('data.csv')).then((d) => {
-            const html = renderHTML(d);
-            expect(html).eq(`<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <style>
@@ -298,7 +289,4 @@ describe('test render', async () => {
 </div>
 
 </body>
-</html>`);
-        });
-    });
-});
+</html>

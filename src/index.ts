@@ -1,17 +1,45 @@
 import {readFile} from 'fs';
-import * as os from 'os';
-import * as moment from 'moment';
-import {datev} from "./clockifyDatev";
-import {APP_CONFIG} from "./config/config";
-
+import {renderHTML} from "./pdf.service";
+import {readCSV} from "./CsvReader";
+var url = require('url');
 const express = require("express");
 const app = express();
-const port = 3000;
 
-app.get("/api/export", async (req: any, res: any) => {
-    res.setHeader('Content-disposition', `inline; filename="Zeiten"`);
-    res.setHeader('Content-type', 'application/pdf');
-    datev(APP_CONFIG.workspace, moment().date(1).month(req.query.month)).then(stream => stream.pipe(res));
+const multer = require('multer');
+const upload = multer({ dest: 'uploads/' });
+const fs = require('fs');
+//TEST VIA: http://host.docker.internal:4091/
+app.post('/', upload.single('csv'), async function (req:any, res:any) {
+    const urlStr = url.format({
+        protocol: req.protocol,
+        host: req.get('host'),
+        pathname: req.originalUrl
+    });
+    res.redirect(301, `http://host.docker.internal:9000/api/render?url=${encodeURIComponent(`${urlStr}download?file=${req.file.path}`)}`)
+})
+
+app.get("/download", async function (req: any, res: any){
+    readCSV(fs.createReadStream(req.query.file)).then(d => {
+        res.send(renderHTML(d));
+    })
+})
+
+app.get("/", async (req: any, res: any) => {
+    /*res.send(renderHTML(readCSV(" as " as any)));*/
+    res.send(`<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Simple Multer Upload Example</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <form action="/" enctype="multipart/form-data" method="post">
+      <input type="file" name="csv">
+      <input type="submit" value="Upload">
+    </form>  
+  </body>
+</html>`)
 })
 
 
@@ -20,10 +48,8 @@ readFile('./package.json', (err, packageStr) => {
         console.error('There was a problem reading package json', err);
         return;
     }
-
+    const port = 4091;
     const json = JSON.parse(packageStr.toString());
-
     console.log(`Running typescript-node-starter version ${json.version}`);
-    console.info(`Running on ${os.hostname()} with ${os.cpus().length} CPU's and ${os.totalmem()} mem`);
     app.listen(port, () => console.log(`app listening on port ${port}`));
 });

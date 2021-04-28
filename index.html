@@ -24,7 +24,6 @@
 
         body {
             margin: 13mm 25mm 25mm 25mm;
-            overflow: hidden;
         }
 
         div,p{
@@ -54,7 +53,6 @@
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
             max-width: 100%;
-            overflow: hidden;
         }
 
         .grid > div{
@@ -194,9 +192,9 @@
 
     <div class="tbl-header">Tag</div>
     <div class="tbl-header">Beginn (Uhrzeit)</div>
-    <div class="tbl-header">Pause (Dauer)</div>
-    <div class="tbl-header">Ende (Uhrzeit)</div>
-    <div class="tbl-header">Dauer (Summe)</div>
+    <div class="tbl-header">Pause(SUM)</div>
+    <div class="tbl-header">Ende(Zeit)</div>
+    <div class="tbl-header">Dauer(SUM)</div>
     <div class="tbl-header">*</div>
     <div class="tbl-header">aufgezeichnet am:</div>
     <div class="tbl-header">Bemerkungen</div>
@@ -207,7 +205,7 @@
     <div>{{break}}</div>
     <div>{{end}}</div>
     <div>{{duration}}</div>
-    <div>{{reason}}</div>
+    <div style="font-size: 7px">{{reason}}</div>
     <div>{{dt}}</div>
     <div>{{note}}</div>
     <!--{{/entries}}-->
