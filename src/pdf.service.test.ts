@@ -298,7 +298,8 @@ describe('test render', async () => {
 </div>
 
 </body>
-</html>`);
+</html>
+`);
         });
     });
 });
