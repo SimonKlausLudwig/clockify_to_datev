@@ -1,6 +1,7 @@
 import {readFile} from 'fs';
 import {renderHTML} from "./pdf.service";
 import {readCSV} from "./CsvReader";
+import {APP_CONFIG} from "./config";
 
 var url = require('url');
 const express = require("express");
@@ -26,7 +27,7 @@ app.post('/', upload.single('csv'), async function (req:any, res:any) {
         host: req.get('host'),
         pathname: req.originalUrl
     });
-    res.redirect(301, `http://host.docker.internal:9000/api/render?url=${encodeURIComponent(`${urlStr}download?file=${req.file.path}`)}`)
+    res.redirect(301, `${APP_CONFIG.pdfService}?url=${encodeURIComponent(`${urlStr}download?file=${req.file.path}`)}`)
 })
 
 app.get("/download", async function (req: any, res: any){
