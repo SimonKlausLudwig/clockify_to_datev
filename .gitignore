@@ -2,3 +2,5 @@ node_modules
 dist
 .env
 muhammara-error.log
+uploads
+.idea

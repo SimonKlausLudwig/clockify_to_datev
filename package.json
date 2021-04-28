@@ -1,10 +1,11 @@
 {
-  "name": "clockifyToDatev",
+  "name": "datev-export",
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
   "author": "Simon Ludwig <simon-ludwig@live.de>",
   "license": "MIT",
+  "tag": "thebakers/datev-export",
   "scripts": {
     "start": "tsns run",
     "test": "run-s build-and:test",
@@ -31,6 +32,7 @@
     "csv-parser": "^3.0.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
     "filecompare": "^1.0.4",
     "moment": "^2.29.1",
     "multer": "^1.4.2",

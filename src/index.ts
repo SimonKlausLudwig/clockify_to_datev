@@ -1,13 +1,24 @@
 import {readFile} from 'fs';
 import {renderHTML} from "./pdf.service";
 import {readCSV} from "./CsvReader";
+
 var url = require('url');
 const express = require("express");
 const app = express();
-
+require('express-async-errors');
 const multer = require('multer');
 const upload = multer({ dest: 'uploads/' });
 const fs = require('fs');
+
+app.use((err:any, req:any, res:any, next:any) => {
+    if (err.message) {
+        res.status(400);
+        res.json({ error: `Fehler: ${err.message}` });
+    }
+
+    next(err);
+});
+
 //TEST VIA: http://host.docker.internal:4091/
 app.post('/', upload.single('csv'), async function (req:any, res:any) {
     const urlStr = url.format({

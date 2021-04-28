@@ -1,19 +1,19 @@
-FROM buildkite/puppeteer
+FROM node:16-alpine3.11
 
 # First copy the yarn.lock to install stuff and benefit from the layer cache
-COPY ["package.json", "package-lock.json", "/usr/src/"]
+COPY ["package.json", "yarn.lock", "/usr/src/"]
 
 # Run all the code from here
 WORKDIR /usr/src
 
 # Install dependencies
-RUN npm install
+RUN yarn install
 
 # Copy the code
 COPY [".", "/usr/src/"]
 
 # Build the project
-RUN npm run -q build
+RUN yarn run -q build
 
 # Tell docker what to run as default
 CMD ["npm", "start", "-s"]
