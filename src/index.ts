@@ -27,7 +27,7 @@ app.post('/', upload.single('csv'), async function (req:any, res:any) {
         host: req.get('host'),
         pathname: req.originalUrl
     });
-    res.redirect(301, `${APP_CONFIG.pdfService}?url=${encodeURIComponent(`${urlStr}download?file=${req.file.path}`)}`)
+    res.redirect(301, `${APP_CONFIG.pdfService}?url=${encodeURIComponent(`${urlStr}datev/download?file=${req.file.path}`)}`)
 })
 
 app.get("/download", async function (req: any, res: any){
@@ -46,7 +46,7 @@ app.get("/", async (req: any, res: any) => {
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <form action="/" enctype="multipart/form-data" method="post">
+    <form action="/datev" enctype="multipart/form-data" method="post">
       <input type="file" name="csv">
       <input type="submit" value="Upload">
     </form>  
