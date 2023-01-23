@@ -5,7 +5,7 @@ const fs = require('fs');
 
 describe('test render', async () => {
     it('test create pdf', async () => {
-        await readCSV(fs.createReadStream('data.csv')).then((d) => {
+        await readCSV(fs.createReadStream('worklogs_neu.csv')).then((d) => {
             const html = renderHTML(d);
             expect(html).eq(`<!DOCTYPE html>
 <html>

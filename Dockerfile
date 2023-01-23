@@ -1,4 +1,4 @@
-FROM node:16-alpine3.11
+FROM --platform=linux/amd64 node:16-alpine3.11
 
 # First copy the yarn.lock to install stuff and benefit from the layer cache
 COPY ["package.json", "yarn.lock", "/usr/src/"]

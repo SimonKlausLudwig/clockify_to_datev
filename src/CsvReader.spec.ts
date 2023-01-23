@@ -8,7 +8,7 @@ const DEZ_2020 = moment().set("date", 1).set("year", 2020).set("month", 11);
 
 describe('test csv reader', async () => {
     it('test read', async () => {
-        const csvInput = await readCSV(fs.createReadStream('data.csv'));
+        const csvInput = await readCSV(fs.createReadStream('worklogs_neu.csv'));
         console.log(JSON.stringify(csvInput));
         expect(JSON.parse(JSON.stringify(csvInput))).eqls([{
             "day": "06.04",

@@ -10,4 +10,4 @@ TAG=$(cat package.json \
 
 echo "Build $TAG"
 
-docker build -t "$TAG":build .
+docker build --platform linux/amd64 -t "$TAG":build .

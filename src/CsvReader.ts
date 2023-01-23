@@ -2,6 +2,7 @@ import {Stream} from "stream";
 import {DatevEntry} from "./Entry";
 import * as moment from "moment";
 const csv = require('csv-parser');
+var tohhmmss = require('tohhmmss');
 
 export const readCSV = (stream: Stream): Promise<DatevEntry[]> => {
     const list: DatevEntry[] = [];
@@ -13,7 +14,7 @@ export const readCSV = (stream: Stream): Promise<DatevEntry[]> => {
 
                 } else {
                     const start = moment(row["Started"]);
-                    const seconds = Number.parseInt(row["Time spent seconds"]);
+                    const seconds = Number.parseInt(row["Time spent"]);
                     const author = Object.values(row)[0] as string;
                     const t: DatevEntry = {
                         day: start.format('DD.MM'),
@@ -23,10 +24,10 @@ export const readCSV = (stream: Stream): Promise<DatevEntry[]> => {
                         author: author,
                         seconds: seconds,
                         end: start.add(seconds, "second").format("hh.mm"),
-                        duration: row["Time spent"],
+                        duration: tohhmmss(seconds),
                         reason: row["Summary"],
                         dt: moment(row["Started"]).format('DD.MM'),
-                        note: author + "" + (row["'Work description'"] || "")
+                        note: row["Summary"] + "" + (row["'Work description'"] || "")
                     }
                     list.push(t);
                 }
@@ -37,3 +38,4 @@ export const readCSV = (stream: Stream): Promise<DatevEntry[]> => {
 
     })
 }
+
